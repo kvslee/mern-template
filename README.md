@@ -56,7 +56,7 @@ Create a DB at https://www.mongodb.com/atlas/database
 ```bash
 # MERN/server/config.env
 PORT=4000
-ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/employees?retryWrites=true&w=majority
+ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/<db-name>?retryWrites=true&w=majority
 ```
 
 ### Databaes Connection
